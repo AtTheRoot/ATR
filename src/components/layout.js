@@ -50,7 +50,7 @@ const Layout = ({ children }) => (
             © {new Date().getFullYear()}, Built by
             {` `}
             </p>
-            <GatsbyLink href="http://www.dawnwages.info">Dawn</GatsbyLink>
+            <GatsbyLink href="http://www.dawnwages.info">Volunteer Engineers 4 The Movement</GatsbyLink>
           </Footer>
         </Content>
       </>
