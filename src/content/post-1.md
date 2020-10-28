@@ -1,45 +1,21 @@
 ---
-title: "This is such a long headline and i dont know what to write so i keep continiung"
-date: "2019-03-17"
+title: "At The Root is a license for "
+date: "2020-06-01"
 draft: false
-path: "/blog/example-title"
+path: "/at-the-root"
 ---
-# H1
+# We are dedicated to ending the normalized and pervasive exploitation of black and brown people in software.
 
-## H2
 
-### H3
-
-#### H4
-
-##### H5
-
-###### H6
-
-Paragraph
+The only way to do this is to demand the projects we contribute to be actively anti-racist, not just in mission but in practice.
 
 ---
 
-> This is a quote
+> "Radical simply means 'grasping things at the root'"
+> - Angela Davis
 
 ---
 
-[Example.com](example.com)
-
----
-
-`const foo = bar`
-
-```javascript
-const foo = bar
-console.log(foo);
-```
-
----
-
-| Hello | World |
-|-------|------ |
-| Foo   | Bar   |
-
+To help create a more equitable open source community please email [mailto:dawn.wages@gmail.com](dawn.wages@gmail.com)
 
 
