@@ -79,7 +79,7 @@ const Header = ({ siteTitle }) => (
         <HomeLink to="/">{siteTitle}</HomeLink>
         <NavLink to="/at-the-root">About</NavLink>
         <NavLink to="/FAQ">FAQ</NavLink>
-        <NavLink to="/adoptors">Adoptors</NavLink>
+        <NavLink to="/adopters">Adopters</NavLink>
       </p>
     </Content>
   </SiteHeader>
