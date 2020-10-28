@@ -12,7 +12,7 @@ The only way to do this is to demand the projects we contribute to be actively a
 
 
 > "Radical simply means 'grasping things at the root'"
-> - Angela Davis
+> -- Angela Davis
 
 
 
