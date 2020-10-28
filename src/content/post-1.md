@@ -9,13 +9,13 @@ path: "/at-the-root"
 
 The only way to do this is to demand the projects we contribute to be actively anti-racist, not just in mission but in practice.
 
----
+
 
 > "Radical simply means 'grasping things at the root'"
 > - Angela Davis
 
----
 
-To help create a more equitable open source community please email [mailto:dawn.wages@gmail.com](dawn.wages@gmail.com)
+
+To help create a more equitable open source community please email [dawn.wages@gmail.com](mailto:dawn.wages@gmail.com)
 
 
