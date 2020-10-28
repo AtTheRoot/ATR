@@ -1,5 +1,5 @@
 ---
-title: "At The Root is a license for "
+title: "At The Root is an ethical open source license for anti-racist projects"
 date: "2020-06-01"
 draft: false
 path: "/at-the-root"
