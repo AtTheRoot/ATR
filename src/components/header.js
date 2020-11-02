@@ -65,6 +65,17 @@ const HomeLink = styled(NavLink)`
   margin-left: 0;
 `
 
+const HighlightLink = styled(NavLink)`
+    display: inline;
+  border-radius: 1em 0 1em 0;
+  background-image: linear-gradient(
+    -100deg,
+    rgba(255, 250, 150, 0.15),
+    rgba(255, 250, 150, 0.8) 100%,
+    rgba(255, 250, 150, 0.25)
+  );
+`
+
 const SiteHeader = styled.header`
   background: transparent;
   display: flex;
@@ -77,6 +88,7 @@ const Header = ({ siteTitle }) => (
     <Content>
       <p>
         <HomeLink to="/">{siteTitle}</HomeLink>
+        <HighlightLink to="/">License</HighlightLink>
         <NavLink to="/at-the-root">About</NavLink>
         <NavLink to="/FAQ">FAQ</NavLink>
         <NavLink to="/adopters">Adopters</NavLink>

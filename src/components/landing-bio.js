@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
+import HighlightHeader from "../components/MarkedHeader"
 
 const Container = styled.div`
   text-align: center;
@@ -44,7 +45,7 @@ const LandingBio = () => (
         <Container>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
           <Description>{data.site.siteMetadata.subtitle}</Description>
-          <Description>{data.site.siteMetadata.description}</Description>
+          <HighlightHeader>{data.site.siteMetadata.description}</HighlightHeader>
         </Container>
       </OuterContainer>
     )}

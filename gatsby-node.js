@@ -41,6 +41,7 @@ exports.createPages = ({ graphql, actions }) => {
               path
               draft
               date
+              showDate
             }
             fields {
               slug
