@@ -34,7 +34,11 @@ const MarkdownContent = styled.div`
       background-size: 100% 88%;
     }
   }
-
+  
+  ul .task-list-item {
+    list-style-type: none;
+  }
+  
   a > code:hover {
     text-decoration: underline;
   }

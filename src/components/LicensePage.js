@@ -20,11 +20,14 @@ const NameHeader = styled.h1`
 
 const RowRight = styled.span`
     float: right;
+    padding-top: 1rem;
+    padding-right: 1rem;
 `
 
 const Icon = styled.span`
     padding-left: .5rem;
 `
+
 
 // STYLE THE TAGS INSIDE THE MARKDOWN HERE
 const MarkdownContent = styled.div`
@@ -36,6 +39,7 @@ const MarkdownContent = styled.div`
       rgba(255, 250, 150, 0.8),
       rgba(255, 250, 150, 0.8)
     );
+    
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: 0 88%;
@@ -48,6 +52,22 @@ const MarkdownContent = styled.div`
   a > code:hover {
     text-decoration: underline;
   }
+  
+
+      background: hsla(0, 0%, 0%, 0.04);
+      border-radius: 3px;
+      margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 1.45rem;
+    /* font-size: 0.8rem; */
+    /* line-height: 1.42; */
+        padding: 1.45rem;
+  
+  ul {
+  list-style-type: none;
+  }
+}
 `
 
 const LicensePage = () => (
@@ -67,21 +87,22 @@ const LicensePage = () => (
     render={data => (
         <Container>
 
-            <pre>
-                <RowRight>
-                    <Icon>
-                        <a href="#">
-                            <FontAwesomeIcon icon={faExternalLinkAlt} size="lg" alt="open license - markdown"/>
-                        </a>
-                    </Icon>
-                    <Icon>
-                        <a href="https://github.com/dawnwages/ATR/blob/master/src/content/ATRlicense.md" target="_blank">
-                            <FontAwesomeIcon icon={["fab", "github"]} size="lg" alt="open license - github"/>
-                        </a>
-                    </Icon>
-                </RowRight>
-                <MarkdownContent dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
-            </pre>
+                <code>
+                    <RowRight>
+                        <Icon>
+                            <a href="#">
+                                <FontAwesomeIcon icon={faExternalLinkAlt} size="lg" alt="open license - markdown"/>
+                            </a>
+                        </Icon>
+                        <Icon>
+                            <a href="https://github.com/dawnwages/ATR/blob/master/src/content/ATRlicense.md" target="_blank">
+                                <FontAwesomeIcon icon={["fab", "github"]} size="lg" alt="open license - github"/>
+                            </a>
+                        </Icon>
+                    </RowRight>
+                    <MarkdownContent dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+                </code>
+
         </Container>
     )}
   />
