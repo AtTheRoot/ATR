@@ -7,7 +7,7 @@ path: "/License"
 
 `<SOFTWARE NAME>` Copyright (c) `<YEAR>`, `<ORGANISATION>`
 
-At The Root License Version Number: 1.0
+At The Root License Version Number: Beta 0.1
 
 Permission to use, copy, modify, and distribute this software and its
 documentation for any purpose, without fee, and without a written
