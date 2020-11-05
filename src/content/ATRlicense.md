@@ -5,9 +5,9 @@ draft: false
 path: "/License"
 ---
 
-**Version:** 1.0
+`<SOFTWARE NAME>` Copyright (c) `<YEAR>`, `<ORGANISATION>`
 
-Copyright (c) `<YEAR>`, `<ORGANISATION>`
+At The Root License Version Number: 1.0
 
 Permission to use, copy, modify, and distribute this software and its
 documentation for any purpose, without fee, and without a written

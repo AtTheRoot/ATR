@@ -89,8 +89,7 @@ const Header = () => (
     <Content>
       <p>
         <HighlightLink to="/">License</HighlightLink>
-        <NavLink to="/at-the-root">About</NavLink>
-        <NavLink to="/FAQ">FAQ</NavLink>
+        <NavLink to="/at-the-root">FAQ</NavLink>
         <NavLink to="/adopters">Adopters</NavLink>
         <NavLink to="/blog">Updates</NavLink>
       </p>
