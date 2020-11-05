@@ -4,6 +4,7 @@ date: "2020-06-01"
 draft: false
 path: "/at-the-root"
 ---
+--------------------
 # We are dedicated to ending the normalized and pervasive exploitation of black and brown people in software.
 
 

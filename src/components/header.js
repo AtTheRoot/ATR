@@ -62,10 +62,11 @@ const GitHubLink = styled.a`
 `
 
 const HomeLink = styled(NavLink)`
-  margin-left: 0;
+  
 `
 
 const HighlightLink = styled(NavLink)`
+margin-left: 0;
     display: inline;
   border-radius: 1em 0 1em 0;
   background-image: linear-gradient(
@@ -83,15 +84,15 @@ const SiteHeader = styled.header`
   justify-content: center;
 `
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <SiteHeader>
     <Content>
       <p>
-        <HomeLink to="/">{siteTitle}</HomeLink>
         <HighlightLink to="/">License</HighlightLink>
         <NavLink to="/at-the-root">About</NavLink>
         <NavLink to="/FAQ">FAQ</NavLink>
         <NavLink to="/adopters">Adopters</NavLink>
+        <NavLink to="/blog">Updates</NavLink>
       </p>
     </Content>
   </SiteHeader>

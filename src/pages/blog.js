@@ -34,11 +34,12 @@ const ReadingTime = styled.h5`
 `
 
 const IndexPage = ({ data }) => {
+    const indexTitle = "Updates"
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title={indexTitle} />
       <Content>
-        <h1>Blog</h1>
+        <h1>{indexTitle}</h1>
         {data.allMarkdownRemark.edges
           .filter(({ node }) => {
             const rawDate = node.frontmatter.rawDate

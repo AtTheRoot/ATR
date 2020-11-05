@@ -5,9 +5,9 @@ draft: false
 path: "/FAQ"
 showDate : false
 ---
-
+--------------------
 ### Where is the license?
-We're working on it! If you'd like to help, send an email to [dawn.wages@gmail.com](mailto:dawn.wages@gmail.com)
+> We're working on it! If you'd like to help, send an email to [dawn.wages@gmail.com](mailto:dawn.wages@gmail.com)
 
 ### If I use this license, can I use it with other licenses?
 
@@ -16,4 +16,4 @@ We're working on it! If you'd like to help, send an email to [dawn.wages@gmail.c
 ### Is ATR License enforceable?
 
 ### What is the goal?
-Address systemic racism and historic underinvestment in the black community.
+> Address systemic racism and historic underinvestment in the black community.

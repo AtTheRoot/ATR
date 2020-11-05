@@ -43,7 +43,6 @@ const MarkdownContent = styled.div`
 export default ({ data }) => {
   const post = data.markdownRemark
     const showDate = post.frontmatter.showDate
-    console.log(data);
   return (
     <Layout>
       <SEO

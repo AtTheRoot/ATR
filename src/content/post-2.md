@@ -5,5 +5,6 @@ draft: false
 path: "/adopters"
 showDate : false
 ---
+--------------------
 
 Here's a list of projects that have adopted the ATR License:
