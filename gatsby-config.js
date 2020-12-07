@@ -64,6 +64,15 @@ module.exports = {
         icon: `src/images/LogoAtTheRoot.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingId: [
+          "G-0HQ1N6YQ15", // Google Analytics / GA
+        ],
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
