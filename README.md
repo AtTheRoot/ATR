@@ -1,88 +1,55 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby Starter Julia
+  At The Root
 </h1>
 
-[GatsbyJS](https://www.gatsbyjs.com/) is a free and open source static website builder build on React. It's one implementation of the [JAMstack](https://jamstack.org/) idea which creates high speed webpages.
+[At The Root](https://attheroot.dev/) is an Ethical License for open source, created by [Dawn Wages](https://glittertech.dev/about).  
 
-## 📚 Features:
+## Project Sections:
 
-- Landingpage
-- Blog overview page
-- Markdown sourcing from /content folder
-- Estimated reading time for each post
-- Styled components with emotion
-- Netlify deployment friendly
-- Nunito font included as npm module
-- Syntax highlighting with prismjs
-- Textmarkerstyle headings inspired by Basecamp
-- Site meta tags with React Helmet
-- Plugins for offline support
-- Draft blog posts not published
+- AntiRacist License 
+- AntiRacist Check List
 
-## 👨🏻‍💻 Customization
 
-Create new pages like an About page in the `/pages` directory.
-The minimum code is:
+## Contribution:
 
-```js
-import React from "react"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-
-const PageName = () => (
-  <Layout>
-    <SEO title="PageName" keywords={[`gatsby`, `application`, `react`]} />
-    //CONTENT HERE
-  </Layout>
-)
-
-export default PageName
-```
-
-To change the name on the landing page please modify the `title` in `gatsby-config.js`
-
-The Nunito typeface is included as a npm module in `gatsby-browser.js` and in `/components/layout.css`
-
----
-
-This Gatsby starter is built on top of the official [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default). You can find a quick start guide in the following lines. There are the most important files explained.
+This project is built with the gatsby start Gatsby starter (gatsby-starter-julia)[https://github.com/niklasmtj/gatsby-starter-julia] is built on top of the official [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default). You can find a quick start guide in the following lines. There are the most important files explained.
 
 ## 🚀 Quick start
 
 This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
-1.  **Create a Gatsby site.**
+1.  **Bring this site locally.**
 
-    Use the Gatsby CLI to create a new site, specifying the julia starter.
+    Clone this repository.
 
     ```sh
-    # create a new Gatsby site using the julia starter
-    gatsby new julia-starter https://github.com/niklasmtj/gatsby-starter-julia
+    # clone this repo 
+    git clone https://github.com/dawnwages/ATR
+    ```
+    
+2.  **Install Gatsby globally.**
+
+    ```sh
+    # install gatsby-cli
+    npm i gatsby-cli
     ```
 
-1.  **Start developing.**
+3.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd julia-starter/
+    cd ATR/
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+4.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `julia-starter` directory in your code editor of choice and edit `src/pages/index.js` or `src/pages/blog.js`. Save your changes and the browser will update in real time!
+    Open the `ATR` directory in your code editor of choice and edit `src/pages/index.js` or `src/pages/blog.js`. Save your changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 
@@ -126,37 +93,3 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 12. **`README.md`**: A text file containing useful reference information about your project.
 
-### The src directory
-
-    .
-    ├── components
-    ├── content
-    ├── images
-    ├── pages
-    └── templates
-
-1. **`/components`**: Your React components can be defined here. You can include them from there in your pages.
-
-2. **`/content`**: The filesystem plugin is configured to get the `*.md` files from here. These will be published on the `/blog` page.
-
-3. **`/images`**: This directory is the home for your images that you can query via GraphQL since the filesystem plugin publish them there.
-
-4. **`/pages`**: Here is where your pages like `/blog`, `/about` and also the 404 page lives. An example of the basic structure can be found above.
-
-5. **`/templates`**: You will find the `blog-post.js` template there which defines how every blog-post page is structured.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? The perfect place to learn more about GatsbyJS is the [website](https://www.gatsbyjs.com/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-You can also directly deploy this starter via Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/niklasmtj/gatsby-starter-julia)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
