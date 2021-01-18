@@ -61,13 +61,22 @@ const GitHubLink = styled.a`
   }
 `
 
-const HomeLink = styled(NavLink)`
-  
+const NewLink = styled(NavLink)`
+  ::after {
+    content: attr(data-descr);
+    position: absolute;
+    left: 0;
+    top: -20px;
+    background-color: red;
+    z-index: 1;
+    font-size: .75rem;
+    color: red;
+  }
 `
 
 const HighlightLink = styled(NavLink)`
-margin-left: 0;
-    display: inline;
+  margin-left: 0;
+  display: inline;
   border-radius: 1em 0 1em 0;
   background-image: linear-gradient(
     -100deg,
@@ -91,7 +100,8 @@ const Header = () => (
         <HighlightLink to="/">License</HighlightLink>
         <NavLink to="/at-the-root">FAQ</NavLink>
         <NavLink to="/adopters">Adopters</NavLink>
-        <NavLink to="/blog">Updates</NavLink>
+        <NewLink data-descr="New Posts" to="/blog">Updates</NewLink>
+        <NavLink to="/code-of-conduct">Code of Conduct</NavLink>
       </p>
     </Content>
   </SiteHeader>

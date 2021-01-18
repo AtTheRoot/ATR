@@ -1,7 +1,7 @@
 <h1 align="center">
   At The Root
 </h1>
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/156df136-0ea1-4196-b9ad-0baa73895836/deploy-status)](https://app.netlify.com/sites/mystifying-lovelace-fed5a8/deploys)
 [At The Root](https://attheroot.dev/) is an Ethical License for open source, created by [Dawn Wages](https://glittertech.dev/about).  
 
 ## Project Sections:
