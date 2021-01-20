@@ -7,6 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import { Helmet } from "react-helmet"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
 
@@ -42,6 +43,12 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+        <Helmet>
+            <html lang="en" amp />
+            <meta name="At The Root" content="Antiracist Ethical Source License" charSet="utf-8"/>
+            <meta property="og:image" content="src/images/ATR.png" />
+            <title>{data.site.siteMetadata.title}</title>
+        </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <Content>
           <main>{children}</main>
