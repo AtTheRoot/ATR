@@ -70,7 +70,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:image`,
-          content: `${site.siteMetadata.url}${site.siteMetadata.image}`,
+          content: `https://www.attheroot.dev`+`${site.siteMetadata.image}`,
         },
       ]
         .concat(

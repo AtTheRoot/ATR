@@ -4,7 +4,7 @@ module.exports = {
     subtitle: `Protecting black lives begins at the root.`,
     description: `An Anti-Racist License for Open Source Projects.`,
     author: `@AtTheRootDev`,
-    url: "https://www.attheroot.dev", // No trailing slash allowed!
+    staticUrl: "https://www.attheroot.dev", // No trailing slash allowed!
     image: "/src/images/ATR.png",
   },
   plugins: [
