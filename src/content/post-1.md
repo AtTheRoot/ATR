@@ -36,7 +36,7 @@ To help create a more equitable open source community please email [contact@atth
 #### If I use this license, can I use it with other licenses?
 
 #### Is this an Open Source License?
-> No, this is an Ethical License for Open Source projects. To learn more about license like ours that tackle societal issues through [#stacktivism](https://stacktivism.com/post/634407295913213952), you can check out [this list aggregated by Ethical Source](https://ethicalsource.dev/licenses/).
+> No, this is an Ethical License for Open Source projects. To learn more about license like ours that tackle societal issues through [#stacktivism](https://stacktivism.com/post/634407295913213952), you can check out [this list aggregated by Ethical Source](https://ethicalsource.dev/licenses/). This license is adapted from the MIT license. For a more detailed explanation, please see wiki()
 
 #### Is ATR License enforceable?
 

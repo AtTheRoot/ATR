@@ -31,6 +31,7 @@ const Icon = styled.span`
 
 // STYLE THE TAGS INSIDE THE MARKDOWN HERE
 const MarkdownContent = styled.div`
+    text-align: left;
   a {
     text-decoration: none;
     position: relative;
