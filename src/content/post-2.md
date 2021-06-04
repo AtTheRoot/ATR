@@ -1,19 +1,33 @@
 ---
-title: "Adopters"
+title: "Join The Movement!"
 date: "2020-06-01"
 draft: false
 path: "/adopters"
 showDate : false
 ---
 --------------------
+## Open Volunteer Positions
 
+Visit our [Draft Roadmap](https://github.com/dawnwages/ATR/projects/1).
+Read our [Code of Conduct](/code-of-conduct) which applies to EVERY At The Root engagement. We have no-tolerance policy for ableism, sexism, racism, transphobia, homophobia, discrimination, or bullying of any manner.
+
+Currently, all positions are volunteer, but we are looking to transition into paid opportunities soon.
+
+|  Position Title  | Description   | Link  |
+|----------|-----------|-------|
+|  Grant Writer | Grant Writer, Communications/Marketing volunteer to support At The Root in fundraising, beginning with grant writing and opportunity to expand the responsibilities. Up to 5 hours/week | [Apply Now!](mailto:contact@AtTheRoot.dev?subject=At The Root Grant Writer)
+|  Social Media Manager | Help organize our interactions with the public through implementing content strategies and analyzing our engagement, identifying trends and campaigns. Up to 10 hours/month  | [Apply Now!](mailto:contact@AtTheRoot.dev?subject=At The Root Social Media Manager)
+|  Outreach  and Legal Liaison | Focus on administrative duties with legal resources, coordinate schedules, field questions, and keep abreast of Ethical Open Source landscape. Up to 20 hours/month | [Apply Now!](mailto:contact@AtTheRoot.dev?subject=At The Root Outreach Manager)
+|  React Software Engineer | We communicate engineering skills needed borrowing [Patreon's Individual Contributor Skill's matrix](https://levels.patreon.com/), with an emphasis on the collaboration and communication skills and room to grow in all others! **Levels:** [IC1](https://levels.patreon.com/), [IC2](https://levels.patreon.com/). Up to 5 hours/week | [Apply Now!](mailto:contact@AtTheRoot.dev?subject=At The Root React Engineer)
+|  Python Software Engineer | We communicate engineering skills needed borrowing [Patreon's Individual Contributor Skill's matrix](https://levels.patreon.com/), with an emphasis on the collaboration and communication skills and room to grow in all others! **Levels:** [IC2](https://levels.patreon.com/), [IC2](https://levels.patreon.com/). Up to 5 hours/week | [Apply Now!](mailto:contact@AtTheRoot.dev?subject=At The Root Python Engineer)
+|  Writer / Anti-Racist Content Contributor | Work with At The Root to create original content or submit your existing work in the Anti-Racist, Ethical Open Source and Tech Space to be featured on the At The Root blog. Provide integral feedback to our software engineers creating the tools for online discourse. Currently we are not paying our contributors, but hope to do so soon. Rolling submissions.| [Apply or Submit Now!](mailto:contact@AtTheRoot.dev?subject=At The Root Writer Contributor)
+|  Graphic Designer | Short or long term assistance creating on-brand digital and print assets for At The Root. Up to 10 hours/month | [Apply Now!](mailto:contact@AtTheRoot.dev?subject=At The Root Graphic Designer)
+
+&nbsp; 
+
+&nbsp; 
+## License Adopters
 Here's a list of projects that have adopted the ATR License:
-
-##None yet! Be the first!
-
-&nbsp; 
-
-&nbsp; 
 
 
 | Project  | Description   | Link  |

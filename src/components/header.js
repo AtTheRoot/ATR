@@ -99,9 +99,9 @@ const Header = () => (
       <p>
         <HighlightLink to="/">License</HighlightLink>
         <NavLink to="/at-the-root">FAQ</NavLink>
-        <NavLink to="/adopters">Adopters</NavLink>
         <NewLink data-descr="New Posts" to="/blog">Updates</NewLink>
         <NavLink to="/code-of-conduct">Code of Conduct</NavLink>
+        <NavLink to="/adopters"><b>Join The Movement!</b></NavLink>
       </p>
     </Content>
   </SiteHeader>
