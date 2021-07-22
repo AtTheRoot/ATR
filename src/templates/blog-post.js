@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import HighlightHeader from "../components/MarkedHeader";
+import { HighlightHeader } from "../components/theme/MarkedHeader";
 
 const Content = styled.div`
   margin: 0 auto;
