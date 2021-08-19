@@ -18,9 +18,9 @@ const ToDoFeed = () => (
         <RightAside/>
     </PageContainer>
     <ToDoFooter>
-        <span>Button Left </span>
+        <span>Newer Threads </span>
         1 of 3,653
-        <span> Button Right</span>
+        <span> Older Threads</span>
     </ToDoFooter>
     </>
 )

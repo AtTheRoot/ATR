@@ -36,6 +36,17 @@ export const SecondaryHighlightHeader = (styled.h1`
   );
 `)
 
+export const SecondaryHighlightHeaderThree = (styled.h3`
+  display: inline;
+  border-radius: 1em 0 1em 0;
+  background-image: linear-gradient(
+    -100deg,
+    ${magentaLighter},
+    ${magentaLight},
+    ${magentaMed}
+  );
+`)
+
 export const SecondaryHighlightHeader3 = (styled.h3`
   display: inline;
   border-radius: 1em 0 1em 0;

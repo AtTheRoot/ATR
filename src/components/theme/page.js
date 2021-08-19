@@ -2,6 +2,8 @@ import styled from "@emotion/styled";
 import { css } from "@emotion/react";
 import {greyLight} from "./colors"
 
+export const borderRadius = "1rem";
+
 export const contentPadding = '1rem 1.0875rem';
 export const contentPaddingSmall = '.5rem .65rem';
 export const contentPaddingTitleBottom = "2rem";
@@ -21,7 +23,6 @@ export const PageContainer = styled.div`
     line-height: 1em;
     cursor: pointer;
     border: none;
-	background-color: #f3f3f3;
 	display: flex;
 `
 
@@ -34,10 +35,12 @@ export const Content = styled.div`
 
 export const ThreeFourthDiv = styled.div`
     width: 75%;
+    padding ${contentPaddingSmall};
 `
 
 export const OneFourthDiv = styled.aside`
     width: 25%;
+    padding ${contentPaddingSmall};
 `
 
 export const HalfDiv = styled.div`
@@ -46,6 +49,7 @@ export const HalfDiv = styled.div`
 
 export const ObjectFooter = styled.div`
     width: 100%;
-    background: ${greyLight};
     padding ${contentPaddingSmall};
 `
+
+export const dropShadow = "rgba(46, 61, 73, 0.15) 8px 10px 20px 0px";

@@ -10,11 +10,16 @@ import {
   ModalCloseButton,
   useDisclosure,
 } from "@chakra-ui/react";
-import { OrangeHighlightHeader, SecondaryHighlightHeader } from "../theme/MarkedHeader";
+import { OrangeHighlightHeader, SecondaryHighlightHeaderThree } from "../theme/MarkedHeader";
+import {greyDark} from "../theme/colors"
 import styled from "@emotion/styled"
 import ButtonOutlined from './Button'
+import {GreyButton} from "../checklist/FeedRow"
 import Card from "./Card"
-import { PageContainer } from "../theme/page"
+import {PageContainer, ThreeFourthDiv, OneFourthDiv} from "../theme/page"
+import {faArrowLeft, faArrowRight} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {magenta} from "../theme/colors";
 
 const boxShadow = (color) => {
 	return `0.2em 0.2em 1px ${color} !important`
@@ -22,20 +27,55 @@ const boxShadow = (color) => {
 
 const HeroContainer = styled(PageContainer)`
     min-height: 4em;
-    width: 80vw;
+    width: 100vw;
     margin: 0.5em;
     padding: 0 auto;
     line-height: 1em;
     cursor: pointer;
-    border: none;
 	transition-duration:  "0.1s";
 	background-color: #f3f3f3;
-	display: flex;
+	border: none;
+`
+
+const HeroContent = styled.div`
+    width: 80vw;
+    display: flex;
+    margin:auto;
+    padding-top: 1rem;
 `
 
 const HeaderContainer = styled.h1`
     display: block;
     margin: auto;
+`
+
+
+const ThreeColumnsWrap = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+`
+
+const CardControlsWrapper = styled.div`
+    display: flex;
+    position: relative;
+    width: 100vw;
+`
+
+const CardControls = styled.div`
+    display: table;
+    margin: 0 auto;
+    padding-top: 1rem;
+`
+
+const ArrowButton = styled.a`
+    margin: 0 3rem;
+    color: ${magenta};
+`
+
+const NewsletterBox = styled(OneFourthDiv)`
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
 `
 
 const BasicUsage = () => {
@@ -68,22 +108,60 @@ const BasicUsage = () => {
 
 const Hero = () => (
 <Container maxW="md" centerContent>
-    <SecondaryHighlightHeader>
+    <h2>
     At The Root Checklist
-    </SecondaryHighlightHeader>
+    </h2>
     <HeroContainer>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <HeroContent>
+        <PageContainer>
+            <ThreeFourthDiv>
+                <h1>Actively Anti Racist Engineers</h1>
+                <SecondaryHighlightHeaderThree>Take an active part in the world your software builds.</SecondaryHighlightHeaderThree>
+                <br/>
+                <br/>
+                <p>It is easy and free to post your thinking on any topic and connect with the antiracist technologist community.</p>
+            </ThreeFourthDiv>
+            <NewsletterBox>
+                <GreyButton>Join our newsletter</GreyButton>
+            </NewsletterBox>
+            <OneFourthDiv>
+                We believe... <br/>
+                <ul>
+                    <li>Tech is not the solution to all our problems, people are.</li>
+                    <li>Experience trumps theory</li>
+                    <li>Prioritize the most marginalized.</li>
+                </ul>
+                <div>
+                    Learn More about our values >>
+                </div>
+            </OneFourthDiv>
+        </PageContainer>
+        </HeroContent>
     </HeroContainer>
-  <Box p="4" color="gray.800" maxW="3xl">
+    <HeroContainer>
+        <HeroContent>
+            <h4>Trending Topics</h4>
+            <ThreeColumnsWrap>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            </ThreeColumnsWrap>
+        </HeroContent>
+    </HeroContainer>
+    {/*<CardControlsWrapper>
+            <CardControls>
+                <ArrowButton><FontAwesomeIcon icon={faArrowLeft} size="2x" alt="views"/></ArrowButton>
+                <ArrowButton><FontAwesomeIcon icon={faArrowRight} size="2x" alt="views"/></ArrowButton>
+            </CardControls>
+        </CardControlsWrapper>*/}
+    {/* <Box p="4" color="gray.800" maxW="3xl">
     There are many benefits to a joint design and development system. Not only
     does it bring benefits to the design team.
 
   </Box>
-  <BasicUsage />
+  <BasicUsage /> */}
 </Container>
 )
 

@@ -21,6 +21,7 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "framer-motion": "^4.1.17",
     "gatsby": "^3.9.0",
+    "gatsby-cli": "^3.11.0",
     "gatsby-image": "^2.11.0",
     "gatsby-plugin-emotion": "^4.5.0",
     "gatsby-plugin-google-gtag": "^2.8.0",
