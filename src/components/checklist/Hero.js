@@ -1,25 +1,15 @@
-import { Container, Box } from "@chakra-ui/react"
 import React from "react";
-import {
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  ModalBody,
-  ModalCloseButton,
-  useDisclosure,
-} from "@chakra-ui/react";
 import { OrangeHighlightHeader, SecondaryHighlightHeaderThree } from "../theme/MarkedHeader";
 import {greyDark} from "../theme/colors"
 import styled from "@emotion/styled"
 import ButtonOutlined from './Button'
 import {GreyButton} from "../checklist/FeedRow"
 import Card from "./Card"
-import {PageContainer, ThreeFourthDiv, OneFourthDiv} from "../theme/page"
+import {PageContainer, ThreeFourthDiv, OneFourthDiv, OneThirdDiv, dropShadow} from "../theme/page"
 import {faArrowLeft, faArrowRight} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {magenta} from "../theme/colors";
+import {magenta, magentaLighter, greyLight} from "../theme/colors";
+import {ColorText} from "./MainFeed"
 
 const boxShadow = (color) => {
 	return `0.2em 0.2em 1px ${color} !important`
@@ -28,13 +18,21 @@ const boxShadow = (color) => {
 const HeroContainer = styled(PageContainer)`
     min-height: 4em;
     width: 100vw;
-    margin: 0.5em;
+    margin: 0em -11vw;
     padding: 0 auto;
     line-height: 1em;
     cursor: pointer;
 	transition-duration:  "0.1s";
 	background-color: #f3f3f3;
 	border: none;
+`
+
+const TealHeroContainer = styled(HeroContainer)`
+margin-top: .25rem;
+margin-bottom: 2rem;
+	background-color: ${magentaLighter};
+	box-shadow: ${dropShadow};
+	border-bottom: 1px ${magenta} solid;
 `
 
 const HeroContent = styled.div`
@@ -47,6 +45,13 @@ const HeroContent = styled.div`
 const HeaderContainer = styled.h1`
     display: block;
     margin: auto;
+`
+
+const TrendingContainer = styled(HeroContainer)`
+  background-image: 
+  linear-gradient(transparent 11px, rgba(220,220,200,.8) 12px, transparent 12px),
+  linear-gradient(90deg, transparent 11px, rgba(220,220,200,.8) 12px, transparent 12px);
+  background-size: 100% 12px, 12px 100%;
 `
 
 
@@ -78,39 +83,8 @@ const NewsletterBox = styled(OneFourthDiv)`
     vertical-align: middle;
 `
 
-const BasicUsage = () => {
-  const { isOpen, onOpen, onClose } = useDisclosure()
-  return (
-    <>
-      <ButtonOutlined onClick={onOpen}>
-      Modal
-      </ButtonOutlined>
-      <Modal isOpen={isOpen} onClose={onClose}>
-        <ModalOverlay />
-        <ModalContent>
-          <ModalHeader>Modal Title</ModalHeader>
-          <ModalCloseButton />
-          <ModalBody>
-            What the fuck is happening to the styles that I'd like to get automatically.
-          </ModalBody>
-
-          <ModalFooter>
-            <ButtonOutlined onClick={onClose}>
-              Close
-            </ButtonOutlined>
-            <ButtonOutlined>Secondary Action</ButtonOutlined>
-          </ModalFooter>
-        </ModalContent>
-      </Modal>
-    </>
-  )
-}
-
 const Hero = () => (
-<Container maxW="md" centerContent>
-    <h2>
-    At The Root Checklist
-    </h2>
+    <>
     <HeroContainer>
         <HeroContent>
         <PageContainer>
@@ -124,21 +98,29 @@ const Hero = () => (
             <NewsletterBox>
                 <GreyButton>Join our newsletter</GreyButton>
             </NewsletterBox>
-            <OneFourthDiv>
-                We believe... <br/>
+            <OneThirdDiv>
+                <p>We believe... </p><br/>
                 <ul>
                     <li>Tech is not the solution to all our problems, people are.</li>
                     <li>Experience trumps theory</li>
                     <li>Prioritize the most marginalized.</li>
                 </ul>
                 <div>
-                    Learn More about our values >>
+                    <ColorText>Learn More about our values >></ColorText>
                 </div>
-            </OneFourthDiv>
+            </OneThirdDiv>
         </PageContainer>
         </HeroContent>
     </HeroContainer>
-    <HeroContainer>
+    <TealHeroContainer>
+        <HeroContent>
+            <span>Welcome Name, </span>
+            <span>Community</span>
+            <span>Account</span>
+            <span>Collectives</span>
+        </HeroContent>
+    </TealHeroContainer>
+    <TrendingContainer>
         <HeroContent>
             <h4>Trending Topics</h4>
             <ThreeColumnsWrap>
@@ -149,20 +131,8 @@ const Hero = () => (
             <Card />
             </ThreeColumnsWrap>
         </HeroContent>
-    </HeroContainer>
-    {/*<CardControlsWrapper>
-            <CardControls>
-                <ArrowButton><FontAwesomeIcon icon={faArrowLeft} size="2x" alt="views"/></ArrowButton>
-                <ArrowButton><FontAwesomeIcon icon={faArrowRight} size="2x" alt="views"/></ArrowButton>
-            </CardControls>
-        </CardControlsWrapper>*/}
-    {/* <Box p="4" color="gray.800" maxW="3xl">
-    There are many benefits to a joint design and development system. Not only
-    does it bring benefits to the design team.
-
-  </Box>
-  <BasicUsage /> */}
-</Container>
+    </TrendingContainer>
+    </>
 )
 
 export default Hero

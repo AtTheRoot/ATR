@@ -8,20 +8,6 @@ module.exports = {
     image: "/src/images/ATR.png",
   },
   plugins: [
-     {
-      resolve: "@chakra-ui/gatsby-plugin",
-      options: {
-        /**
-         * if `false`, this plugin will not use `<CSSReset />
-         */
-        resetCSS: false,
-        /**
-         * The z-index to apply to all portal nodes. This is useful
-         * if your app uses a lot z-index to position elements.
-         */
-        portalZIndex: 40,
-      },
-    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

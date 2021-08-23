@@ -9,8 +9,7 @@
     "graphql-compose": "^7.25.0",
     "webpack": "^5.24.2"
   },
-  "dependencies": {
-    "@chakra-ui/gatsby-plugin": "^2.0.1",
+  "dependencies":  {
     "@chakra-ui/react": "^1.6.5",
     "@emotion/core": "^10.1.1",
     "@emotion/react": "^11.4.0",

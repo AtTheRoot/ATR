@@ -5,7 +5,8 @@ import {borderColor} from "../theme/colors"
 import {greyLight, greyDark, magentaLight, magentaLighter} from "../theme/colors"
 import {contentPadding, contentPaddingSmall, dropShadow, contentPaddingTitleBottom, ObjectFooter} from "../theme/page"
 import {defaultFont} from "../theme/font"
-import {FeedBadgeWrapper, Badge} from "../checklist/FeedRow"
+import {FeedBadgeWrapper, Badge, SmallMagentaButton, MagentaButton} from "../checklist/FeedRow";
+import {SmallColorText} from "../checklist/MainFeed"
 import {SecondaryHighlightHeader} from "../theme/MarkedHeader";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {library} from "@fortawesome/fontawesome-svg-core";
@@ -18,13 +19,14 @@ const boxShadow = (color) => {
 
 const CardContainer = styled.div`
     min-height: 2em;
-    margin: 1em 2em;
+    margin: 1.2em;
     cursor: pointer;
     color: ${greyDark} !important;
     border-top: 3px solid ${borderColor} !important;
     box-shadow: ${dropShadow};
     flex: 1 1 220px;
     font-size: ${defaultFont};
+    background-color: white;
 `
 
 const CardTitle = styled.h4`
@@ -36,21 +38,23 @@ const CardTitle = styled.h4`
 const CardBody = styled.p`
     padding: ${contentPadding};
     overflow-y: auto;
-    max-height: 5rem;
+    max-height: 9rem;
     padding-top: 0rem;
 `
 
 const CardFooter = styled(ObjectFooter)`
-    background-color: ${magentaLighter}
+    background-color: ${magentaLighter};
+    padding: 0rem;
+    margin-left: auto;
 `
 
 export const CardBadgeWrapper = styled(ObjectFooter)`
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
+    justify-content: flex-end;
 `
 
-const CardDate = styled.p`
+export const CardDate = styled.p`
     font-size: ${defaultFont};
     padding: ${contentPadding};
     margin-bottom: 0rem;
@@ -58,22 +62,22 @@ const CardDate = styled.p`
 `
 
 const CardIcon = styled.div`
-    margin: -40px auto auto -40px;
+    margin: -40px auto auto -20px;
     text-align: center;
     border: 2px ${magentaLighter} solid;
     border-radius: 50%;
     position: relative;
     padding: 1.5rem;
-    width: 4.125rem;
-    height: 4.125rem;
-    font-size: 40px;
+    width: 3.125rem;
+    height: 3.125rem;
+    font-size: 50px;
     font-weight: bold;
     white-space: nowrap;
     ::after{
         border: 1px ${magentaLighter} solid;
         transform: rotate(5deg);
         content: "";
-        top: -5px;
+        top: -2px;
         left: -5px;
     }
     ::before{
@@ -88,15 +92,20 @@ const Card = () => {
             <CardIcon>1</CardIcon>
             <CardTitle>Card Title</CardTitle>
             <CardDate>{new Date().toDateString()}</CardDate>
+            <FeedBadgeWrapper>
+            <Badge>(145) tag</Badge>
+            <Badge>(14) asdfasd</Badge>
+            <Badge>(4) sdfsdf</Badge>
+             <SmallColorText>   ... 13 more tags</SmallColorText>
+        </FeedBadgeWrapper>
             <hr/>
             <CardBody>
                 Card Body Text Text Text Text Lorem Ipsum Card Body Card Body Text Text Text Text Lorem Ipsum Card Body Card Body Text Text Text Text Lorem Ipsum Card Body Text Text Text Text Lorem IpsumCard Body Text Text Text Text Lorem IpsumCard Body Text Text Text Text Lorem IpsumCard Body Text Text Text Text Lorem Ipsum
             </CardBody>
             <CardFooter>
             <CardBadgeWrapper>
-                <Badge>(145) tag</Badge>
-                <Badge>(14) asdfasd</Badge>
-                ... 13 more tags
+                <MagentaButton>Read More ></MagentaButton>
+
             </CardBadgeWrapper>
             </CardFooter>
         </CardContainer>

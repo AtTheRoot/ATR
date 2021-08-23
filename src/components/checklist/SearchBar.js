@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "@emotion/styled"
+import {greyLight} from "../theme/colors"
 import {MagentaButton} from "../checklist/FeedRow";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {library} from "@fortawesome/fontawesome-svg-core";
@@ -16,6 +17,10 @@ const SearchWrapper = styled.input`
     background-color: transparent;
     overflow: visible;
     padding: 0 0 0 2rem;
+    
+    &:focus-visible {
+        border: 1px solid ${greyLight} !important;
+    }
 `
 
 const SearchButton = styled(MagentaButton)`

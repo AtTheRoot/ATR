@@ -1,16 +1,17 @@
-import React from "react"
+import React, {useState} from "react";
 import styled from "@emotion/styled"
 
 import FeedRow from "./FeedRow"
 
-import {magenta, grey} from "../theme/colors";
+import { magenta, grey} from "../theme/colors";
 import { ThreeFourthDiv, Content, borderRadius } from "../theme/page";
-import { SecondaryHighlightHeader} from "../theme/MarkedHeader";
+import { defaultFont } from "../theme/font"
 
 import {library} from "@fortawesome/fontawesome-svg-core";
-import {faDownload} from "@fortawesome/free-solid-svg-icons";
+import {faDownload, faStar} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-library.add(faDownload);
+library.add(faDownload, faStar);
+
 
 const ResultsRowWrapper = styled.div`
     display:flex;
@@ -35,32 +36,49 @@ const ResultsRow = styled.div`
 `
 
 const DownloadList = styled.div`
-    padding-bottom: 1rem;
+    padding: 0 1rem 1rem 1rem;
 `
 
-const ColorText = styled.span`
+export const ColorText = styled.span`
     color: ${magenta};
+    font-weight: bold;
 `
 
-const UncheckButton = styled.button`
+export const SmallColorText = styled.span`
+    color: ${magenta};
+    font-weight: bold;
+    font-size: ${defaultFont};
+    line-height: 1;
+    margin-top: auto;
+    padding-top: .5rem;
 `
 
-const MainFeed = () => (
 
-        <ThreeFourthDiv>
-            <Content>
-                <ResultsRowWrapper>
-                    <ResultsRow>Checklist <ColorText>0 out of 1,378</ColorText> </ResultsRow>
-                    <DownloadList>Download List <FontAwesomeIcon icon={faDownload} size="md" alt="views"/></DownloadList> |
-                    <DownloadList>Save List <FontAwesomeIcon icon={faDownload} size="md" alt="views"/></DownloadList>
-                </ResultsRowWrapper>
-                <hr/>
-                <FeedRow/>
-                <FeedRow/>
-                <FeedRow/>
-                <FeedRow/>
-            </Content>
-        </ThreeFourthDiv>
+function MainFeed({data}) {
+    const [checkCount, setCheckCount] = useState(0);
+    const handleCheckBox = event => {
+        if(event.currentTarget.checked){
+            setCheckCount(checkCount+1);
+        } else {
+            setCheckCount(checkCount-1);
+        }
+    }
+    return (
+    <ThreeFourthDiv>
+        <Content>
+            {console.log(data)}
+            <ResultsRowWrapper>
+                <ResultsRow>Checklist <ColorText>0 out of {checkCount}</ColorText> </ResultsRow>
+                <DownloadList>Download List <ColorText><FontAwesomeIcon icon={faDownload} size="1x"
+                                                                        alt="views"/></ColorText></DownloadList> |
+                <DownloadList> Star All <ColorText><FontAwesomeIcon icon={faStar} size="1x" alt="views"/></ColorText>
+                </DownloadList>
+            </ResultsRowWrapper>
+            <hr/>
+            {data.map(item => (<FeedRow key={item.id} value={checkCount} onChangeHandleCheckBox={handleCheckBox} data={item}/>))}
+        </Content>
+    </ThreeFourthDiv>
 )
+}
 
 export default MainFeed
