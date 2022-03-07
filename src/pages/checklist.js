@@ -6,13 +6,13 @@ import Hero from "../components/checklist/Hero";
 import SubNav from "../components/checklist/SubNav"
 import ToDoFeed from "../components/checklist/ToDoFeed"
 
+const trendingData = require('../demo/trending-feed.json');
 
-
-const CheckListPage = ({data}) => {
+const CheckListPage = () => {
     return (
         <ForumLayout>
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]}/>
-            <Hero/>
+            <Hero data={trendingData}/>
             <SubNav/>
             <ToDoFeed/>
         </ForumLayout>

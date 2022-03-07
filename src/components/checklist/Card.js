@@ -86,26 +86,25 @@ const CardIcon = styled.div`
     }
 `
 
-const Card = () => {
+const Card = ({data, incr}) => {
+    const tagLimit = 5;
+    const abstractLimit = 400;
     return (
         <CardContainer>
-            <CardIcon>1</CardIcon>
-            <CardTitle>Card Title</CardTitle>
-            <CardDate>{new Date().toDateString()}</CardDate>
+            <CardIcon>{incr}</CardIcon>
+            <CardTitle>{data.title}</CardTitle>
+            <CardDate>{data.date}</CardDate>
             <FeedBadgeWrapper>
-            <Badge>(145) tag</Badge>
-            <Badge>(14) asdfasd</Badge>
-            <Badge>(4) sdfsdf</Badge>
-             <SmallColorText>   ... 13 more tags</SmallColorText>
+                {data.tags.slice(0,tagLimit).map((item, index) => (<Badge key={index}>{item}</Badge>))}
+            {data.tags.length > tagLimit && <SmallColorText>... {data.tags.length - tagLimit} more tag(s)</SmallColorText>}
         </FeedBadgeWrapper>
             <hr/>
             <CardBody>
-                Card Body Text Text Text Text Lorem Ipsum Card Body Card Body Text Text Text Text Lorem Ipsum Card Body Card Body Text Text Text Text Lorem Ipsum Card Body Text Text Text Text Lorem IpsumCard Body Text Text Text Text Lorem IpsumCard Body Text Text Text Text Lorem IpsumCard Body Text Text Text Text Lorem Ipsum
+                {data.abstractShort.substring(0,abstractLimit)} {data.abstractShort.length > abstractLimit && <span>...</span>}
             </CardBody>
             <CardFooter>
             <CardBadgeWrapper>
                 <MagentaButton>Read More ></MagentaButton>
-
             </CardBadgeWrapper>
             </CardFooter>
         </CardContainer>

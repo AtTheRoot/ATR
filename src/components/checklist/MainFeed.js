@@ -66,16 +66,15 @@ function MainFeed({data}) {
     return (
     <ThreeFourthDiv>
         <Content>
-            {console.log(data)}
             <ResultsRowWrapper>
-                <ResultsRow>Checklist <ColorText>0 out of {checkCount}</ColorText> </ResultsRow>
+                <ResultsRow>Checked <ColorText>{checkCount} out of 3,457</ColorText> </ResultsRow>
                 <DownloadList>Download List <ColorText><FontAwesomeIcon icon={faDownload} size="1x"
                                                                         alt="views"/></ColorText></DownloadList> |
                 <DownloadList> Star All <ColorText><FontAwesomeIcon icon={faStar} size="1x" alt="views"/></ColorText>
                 </DownloadList>
             </ResultsRowWrapper>
             <hr/>
-            {data.map(item => (<FeedRow key={item.id} value={checkCount} onChangeHandleCheckBox={handleCheckBox} data={item}/>))}
+            {data.map((item, index) => (<FeedRow key={index} value={checkCount} onChangeHandleCheckBox={handleCheckBox} data={item}/>))}
         </Content>
     </ThreeFourthDiv>
 )

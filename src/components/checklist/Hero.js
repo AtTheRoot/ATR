@@ -11,6 +11,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {magenta, magentaLighter, greyLight} from "../theme/colors";
 import {ColorText} from "./MainFeed"
 
+
+
 const boxShadow = (color) => {
 	return `0.2em 0.2em 1px ${color} !important`
 }
@@ -83,7 +85,7 @@ const NewsletterBox = styled(OneFourthDiv)`
     vertical-align: middle;
 `
 
-const Hero = () => (
+const Hero = ({data}) => (
     <>
     <HeroContainer>
         <HeroContent>
@@ -124,11 +126,7 @@ const Hero = () => (
         <HeroContent>
             <h4>Trending Topics</h4>
             <ThreeColumnsWrap>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+                {data.map((item, index) => <Card key={index} data={item} incr={index+1}/>)}
             </ThreeColumnsWrap>
         </HeroContent>
     </TrendingContainer>

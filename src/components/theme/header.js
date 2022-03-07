@@ -86,8 +86,8 @@ const Header = () => (
   <SiteHeader>
     <Content>
       <p>
-        <HighlightLink to="/">License</HighlightLink>
-        <SecondaryHighlightLink to="/checklist">Check List</SecondaryHighlightLink>
+        <HighlightLink to="/">AntiRacist License</HighlightLink>
+        <SecondaryHighlightLink to="/checklist">AntiRacist SDK</SecondaryHighlightLink>
         <NavLink to="/at-the-root">FAQ</NavLink>
         <NewLink data-descr="New Posts" to="/blog">Updates</NewLink>
         <NavLink to="/code-of-conduct">Code of Conduct</NavLink>

@@ -166,7 +166,7 @@ export const FeedDate = styled.p`
 `;
 
 
-const FeedRow = ({key, checkCount, onChangeHandleCheckBox, data}) => {
+const FeedRow = ({ value, onChangeHandleCheckBox, data}) => {
     const abstractLimit = 400;
     const tagLimit = 7;
     const [starColor, setColor] = useState("black");
@@ -178,9 +178,9 @@ const FeedRow = ({key, checkCount, onChangeHandleCheckBox, data}) => {
         }
     }
     return(
-    <FeedRowWrapper key={key}>
+    <FeedRowWrapper>
         <Content>
-            <Checkbox key={key} onChange={onChangeHandleCheckBox} type={"checkbox"}/>
+            <Checkbox onChange={onChangeHandleCheckBox} type={"checkbox"}/>
             <FontAwesomeIcon onClick={countStar} icon={faStar} color={starColor} size="1x" alt="views"/>
             <RowTitle>{data.title}</RowTitle>
             <FeedBadgeWrapper>
@@ -192,22 +192,22 @@ const FeedRow = ({key, checkCount, onChangeHandleCheckBox, data}) => {
                     {data.abstractShort.substring(0,abstractLimit)} {data.abstractShort.length > abstractLimit && <span>...</span>}
                 </RowContent>
                 <IconsRowContent>
-                    {data.users.map((item,index) => <UserCircle><img key={index} src={item.icon}/></UserCircle>)}
+                    {data.users.map((item,index) => <UserCircle key={index}><img key={index} src={item.icon}/></UserCircle>)}
                 </IconsRowContent>
             </FeedContentWrapper>
         </Content>
         <FeedFooter>
             <FooterIcons>
-                <FontAwesomeIcon icon={faHistory} size="xs" alt="views"/> 3 years 2 days ago
+                <FontAwesomeIcon icon={faHistory} size="xs" alt="views"/> {data.timeSince}
             </FooterIcons>
             <FooterIcons>
-                <FontAwesomeIcon icon={faComments} size="xs" alt="views"/> 7 Responses
+                <FontAwesomeIcon icon={faComments} size="xs" alt="views"/> {data.responses} Responses
             </FooterIcons>
             <FooterIcons>
-                <FontAwesomeIcon icon={faThumbsUp} size="xs" alt="views"/> 1,123 Likes
+                <FontAwesomeIcon icon={faThumbsUp} size="xs" alt="views"/> {data.likes} Likes
             </FooterIcons>
             <FooterIcons>
-                <FontAwesomeIcon icon={faDownload} size="xs" alt="views"/> 378 Downloads
+                <FontAwesomeIcon icon={faDownload} size="xs" alt="views"/> {data.downloads} Downloads
             </FooterIcons>
             <PullRightFooter>
                 <MagentaButton>View Full Thread</MagentaButton>
