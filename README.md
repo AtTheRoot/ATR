@@ -1,18 +1,24 @@
 <h1 align="center">
   At The Root
 </h1>
+
+## About
+
+This repo is the At The Root website and the [AntiRacist License](https://github.com/VE4TM/ATR/blob/main/src/content/ATRlicense.md).
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/156df136-0ea1-4196-b9ad-0baa73895836/deploy-status)](https://app.netlify.com/sites/mystifying-lovelace-fed5a8/deploys)
+
 [At The Root](https://attheroot.dev/) is an Ethical License for open source, created by [Dawn Wages](https://glittertech.dev/about).  
 
 ## Project Sections:
 
 - AntiRacist License 
-- AntiRacist Check List
+- At The Root Site
 
 
 ## Contribution:
 
-This project is built with the gatsby start Gatsby starter (gatsby-starter-julia)[https://github.com/niklasmtj/gatsby-starter-julia] is built on top of the official [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default). You can find a quick start guide in the following lines. There are the most important files explained.
+The first version of the AntiRacist License is launching Juneteenth 2022!
 
 ## 🚀 Quick start
 
@@ -24,7 +30,7 @@ This starter ships with the main Gatsby configuration files you might need to ge
 
     ```sh
     # clone this repo 
-    git clone https://github.com/dawnwages/ATR
+    git clone https://github.com/VE4TM/ATR
     ```
     
 2.  **Install Gatsby globally.**
