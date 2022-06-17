@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `At The Root`,
-    subtitle: `Protecting black lives begins at the root.`,
-    description: `An Anti-Racist License for Open Source Projects.`,
+    subtitle: `Protecting lives begins at the root.`,
+    description: `An Anti-Racist Ethical Source License for Open Source Projects.`,
     author: `@AtTheRootDev`,
     staticUrl: "https://www.attheroot.dev", // No trailing slash allowed!
     image: "/src/images/ATR.png",

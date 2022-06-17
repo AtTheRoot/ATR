@@ -96,7 +96,7 @@ const LicensePage = () => (
                             </a>
                         </Icon>
                         <Icon>
-                            <a href="https://github.com/dawnwages/ATR/blob/master/src/content/ATRlicense.md" target="_blank">
+                            <a href="https://github.com/AtTheRoot/ATR-License" target="_blank">
                                 <FontAwesomeIcon icon={["fab", "github"]} size="lg" alt="open license - github"/>
                             </a>
                         </Icon>
