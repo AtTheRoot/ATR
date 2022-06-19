@@ -5,7 +5,7 @@ draft: false
 path: "/at-the-root"
 ---
 --------------------
-### We are dedicated to ending the normalized and pervasive exploitation of black and brown people in software.
+### We are dedicated to ending the normalized and pervasive exploitation of Black, Brown and Indigenous people in software.
 
 &nbsp; 
 
@@ -28,12 +28,13 @@ To help create a more equitable open source community please email [contact@atth
 #FAQ
 --------------------
 #### Where is the license?
-> We're working on it! If you'd like to help, send an email to [contact@attheroot.dev][email]
+> Version 0.6 is OUT! Find it here at our [repo](https://github.com/AtTheRoot/ATR-License/) or you may have passed it on our [homepage](https://attheroot.dev). We're working on version 1.0! If you'd like to help, send an email to [contact@attheroot.dev][email]
 
 #### What is Ethical Source?
 > There has already been some work in the Ethical Source space. You can read more about it at the Ethical Source Collective: [Ethical Source](https://ethicalsource.dev/definition/) which aligns with the way that At The Root views it's impact. 
 
 #### If I use this license, can I use it with other licenses?
+>Yes.
 
 #### Is this an Open Source License?
 > No, this is an Ethical License for Open Source projects. To learn more about license like ours that tackle societal issues through [#stacktivism](https://stacktivism.com/post/634407295913213952), you can check out [this list aggregated by Ethical Source](https://ethicalsource.dev/licenses/). This license is adapted from the [Hippocratic License 3.0](https://firstdonoharm.dev). For a more detailed explanation, please see our [documentation](https://github.com/AtTheRoot/ATR-License)
