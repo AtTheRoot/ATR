@@ -1,8 +1,9 @@
 ---
-title: "At The Root is an ethical open source license for anti-racist projects"
-date: "2020-06-01"
+title: "Announcing the Release of The AntiRacist License v0.6 on Juneteenth 2022"
+date: "2022-06-19"
 draft: false
-path: "/at-the-root"
+path: "/juneteenth-announce-antiracist-license-2022"
+showDate : true
 ---
 --------------------
 # This is a call to action on Juneteenth 2022
