@@ -1,0 +1,175 @@
+  [{
+    "date": "January 22 2021",
+    "title" : "Intellectual Property and Ownership of Genetic Data",
+    "tags": [[9,"IP"], [2, "Genetic"], [12,"Data"], [5, "IoT"], [201, "Python"], [455, "ethics"], [67, "medicine"], [55, "NCBI"]],
+    "abstractShort" : "An ethical issue with the use of bioinformatics and computational genomics is the concern with it's intellectual property that revolve around confidentiality fof the genetic impact. There is a psychological impact and philosophical debate that relate to the following categories. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar ante sit amet ex condimentum sagittis. Vestibulum fringilla ornare nunc, sit amet accumsan tellus placerat bibendum. Maecenas placerat sapien at rutrum imperdiet. Suspendisse metus neque, egestas eget sollicitudin eget, congue vitae dolor. Pellentesque pharetra mattis luctus. Vivamus sollicitudin sed enim nec posuere. Integer vel interdum felis, at lobortis lacus. Proin eget diam mattis sapien dictum suscipit. Curabitur in commodo sem, ut congue neque. Mauris venenatis porttitor aliquam. Duis rutrum sagittis felis et vestibulum. In condimentum aliquam convallis. Donec accumsan a nibh a gravida. Nulla id suscipit mi. Nunc sollicitudin feugiat porttitor.\n\nDuis volutpat magna vitae nisi placerat, ac faucibus ipsum iaculis. Vestibulum pulvinar fringilla urna sed iaculis. Pellentesque pellentesque, nunc sit amet dictum congue, augue nisl maximus diam, vitae viverra enim neque sit amet magna. Mauris vestibulum mi erat, nec vehicula ipsum blandit vitae. Ut tellus ligula, ultrices et dolor at, tincidunt ultricies risus. Morbi at arcu sit amet lacus eleifend pharetra vitae nec mi. Vivamus vitae nisi nec odio tempor venenatis. In facilisis, justo eu congue auctor, dui lorem iaculis ante, nec elementum dolor turpis nec tortor. Aenean fermentum felis finibus velit facilisis, nec ultrices lectus congue. Aliquam vestibulum condimentum urna et vestibulum. Sed congue felis id mauris aliquam consectetur. Praesent suscipit hendrerit ligula, vitae ornare nisl. Nam tempor molestie aliquam. Ut in tortor tempor nisl consectetur imperdiet ac vitae lacus. Vivamus sagittis sapien urna, non pretium felis luctus quis. Nullam et neque scelerisque, ultrices velit ut, congue libero.\n\nIn sed sem leo. Vivamus bibendum odio ut laoreet dictum. Maecenas quis nulla in ligula iaculis facilisis id at ex. Integer nibh risus, tempus sed egestas non, convallis ut libero. Pellentesque tellus urna, semper convallis velit eu, facilisis ultricies est. Fusce ac quam vulputate, ultrices sapien vitae, condimentum tellus. Pellentesque quis porttitor mauris. Fusce in sapien mauris. Etiam in ex vitae felis finibus blandit. In tempor nulla turpis, a ornare metus efficitur eu. Sed vitae velit porttitor, porttitor ligula nec, euismod metus. Suspendisse rhoncus pharetra sapien, et lacinia purus venenatis nec. Proin in aliquet turpis. Fusce hendrerit vestibulum fermentum. Integer et bibendum leo.\n\nNulla semper sollicitudin purus, a blandit magna aliquet ut. Nulla lobortis laoreet erat non porttitor. Nunc laoreet id elit iaculis consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus mollis justo ac congue feugiat. Quisque odio orci, consequat non libero fringilla, convallis molestie neque. Sed tincidunt, velit ac ullamcorper lobortis, massa risus condimentum nibh, quis convallis tortor leo in diam. Vestibulum eu viverra ipsum.\n\nNullam nulla urna, convallis at magna id, tristique semper eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur nec suscipit nunc, quis facilisis neque. Ut pharetra neque efficitur erat egestas, vel lacinia leo porta. Phasellus nec porttitor mi, a mattis neque. Nulla urna lacus, pharetra a blandit in, fringilla ut augue. Donec ac nisl quis turpis aliquet efficitur. Duis faucibus pretium ornare. Nam tincidunt nulla eget mollis lobortis. Nam risus sapien, rhoncus ac auctor sed, blandit id erat. Aenean quis fermentum elit. Phasellus justo erat, blandit quis semper id, hendrerit non ante. Phasellus ullamcorper auctor massa, at dictum lorem mattis non. Vestibulum et orci nunc. Mauris volutpat, nibh quis euismod facilisis, tellus nisl fermentum metus, eu ultrices turpis velit eu urna. Fusce porta ornare dolor, sit amet finibus urna ultricies suscipit.\n\n",
+    "users":
+            [
+              {
+                "id" : "001",
+                "icon" : "https://media.istockphoto.com/photos/nothing-but-smiles-here-picture-id1215914089?k=6&m=1215914089&s=612x612&w=0&h=loJJhLvWICNw_ze1Qu7aECPzoKGjAOjM7C-JYNmqqng="
+              },
+              {
+                "id": "002",
+                "icon": "https://media.istockphoto.com/photos/portrait-of-handsome-latino-african-man-picture-id1007763808?k=6&m=1007763808&s=612x612&w=0&h=Js1VDBulbaNw_CF7fghP_nhUPCC-DQTqb7Wym1CdTOI="
+              },
+              {
+                "id": "003",
+                "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ0OPb42-lXLlxks_OYde0Vua2CEsVomgr_A&usqp=CAU"
+              },
+              {
+                "id": "004",
+                "icon": "https://media.them.us/photos/5a0af71dd443dd0010c10ada/3:4/w_2880,h_3840,c_limit/5_Devin%20Norelle.jpg"
+              }
+            ],
+    "timeSince": "2 days ago",
+    "responses": "7",
+    "likes": "345",
+    "downloads": "555"
+  },
+  {
+  "date": "January 22 2021",
+  "title" : "Intellectual Property and Ownership of Genetic Data",
+  "tags": [[9,"IP"], [2, "Genetic"], [12,"Data"], [5, "IoT"], [201, "Python"], [455, "ethics"], [67, "medicine"], [55, "NCBI"]],
+  "abstractShort" : "An ethical issue with the use of bioinformatics and computational genomics is the concern with it's intellectual property that revolve around confidentiality fof the genetic impact. There is a psychological impact and philosophical debate that relate to the following categories.",
+  "users":
+          [
+            {
+              "id" : "001",
+              "icon" : "https://media.istockphoto.com/photos/nothing-but-smiles-here-picture-id1215914089?k=6&m=1215914089&s=612x612&w=0&h=loJJhLvWICNw_ze1Qu7aECPzoKGjAOjM7C-JYNmqqng="
+            },
+            {
+              "id": "002",
+              "icon": "https://media.istockphoto.com/photos/portrait-of-handsome-latino-african-man-picture-id1007763808?k=6&m=1007763808&s=612x612&w=0&h=Js1VDBulbaNw_CF7fghP_nhUPCC-DQTqb7Wym1CdTOI="
+            },
+            {
+              "id": "003",
+              "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ0OPb42-lXLlxks_OYde0Vua2CEsVomgr_A&usqp=CAU"
+            },
+            {
+              "id": "004",
+              "icon": "https://media.them.us/photos/5a0af71dd443dd0010c10ada/3:4/w_2880,h_3840,c_limit/5_Devin%20Norelle.jpg"
+            }
+          ],
+  "timeSince": "1 month 14 days ago",
+  "responses": "43",
+  "likes": "15",
+  "downloads": "425"
+},
+ {
+  "date": "January 22 2021",
+  "title" : "Intellectual Property and Ownership of Genetic Data",
+  "tags": [[9,"IP"], [2, "Genetic"], [12,"Data"], [5, "IoT"], [201, "Python"], [455, "ethics"], [67, "medicine"], [55, "NCBI"]],
+  "abstractShort" : "An ethical issue with the use of bioinformatics and computational genomics is the concern with it's intellectual property that revolve around confidentiality fof the genetic impact. There is a psychological impact and philosophical debate that relate to the following categories.",
+  "users":
+          [
+            {
+              "id" : "001",
+              "icon" : "https://media.istockphoto.com/photos/nothing-but-smiles-here-picture-id1215914089?k=6&m=1215914089&s=612x612&w=0&h=loJJhLvWICNw_ze1Qu7aECPzoKGjAOjM7C-JYNmqqng="
+            },
+            {
+              "id": "002",
+              "icon": "https://media.istockphoto.com/photos/portrait-of-handsome-latino-african-man-picture-id1007763808?k=6&m=1007763808&s=612x612&w=0&h=Js1VDBulbaNw_CF7fghP_nhUPCC-DQTqb7Wym1CdTOI="
+            },
+            {
+              "id": "003",
+              "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ0OPb42-lXLlxks_OYde0Vua2CEsVomgr_A&usqp=CAU"
+            },
+            {
+              "id": "004",
+              "icon": "https://media.them.us/photos/5a0af71dd443dd0010c10ada/3:4/w_2880,h_3840,c_limit/5_Devin%20Norelle.jpg"
+            }
+          ],
+  "timeSince": "1 month 14 days ago",
+  "responses": "43",
+  "likes": "15",
+  "downloads": "425"
+},
+ {
+  "date": "January 22 2021",
+  "title" : "Intellectual Property and Ownership of Genetic Data",
+  "tags": [[9,"IP"], [2, "Genetic"], [12,"Data"], [5, "IoT"], [201, "Python"], [455, "ethics"], [67, "medicine"], [55, "NCBI"]],
+  "abstractShort" : "An ethical issue with the use of bioinformatics and computational genomics is the concern with it's intellectual property that revolve around confidentiality fof the genetic impact. There is a psychological impact and philosophical debate that relate to the following categories.",
+  "users":
+          [
+            {
+              "id" : "001",
+              "icon" : "https://media.istockphoto.com/photos/nothing-but-smiles-here-picture-id1215914089?k=6&m=1215914089&s=612x612&w=0&h=loJJhLvWICNw_ze1Qu7aECPzoKGjAOjM7C-JYNmqqng="
+            },
+            {
+              "id": "002",
+              "icon": "https://media.istockphoto.com/photos/portrait-of-handsome-latino-african-man-picture-id1007763808?k=6&m=1007763808&s=612x612&w=0&h=Js1VDBulbaNw_CF7fghP_nhUPCC-DQTqb7Wym1CdTOI="
+            },
+            {
+              "id": "003",
+              "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ0OPb42-lXLlxks_OYde0Vua2CEsVomgr_A&usqp=CAU"
+            },
+            {
+              "id": "004",
+              "icon": "https://media.them.us/photos/5a0af71dd443dd0010c10ada/3:4/w_2880,h_3840,c_limit/5_Devin%20Norelle.jpg"
+            }
+          ],
+  "timeSince": "1 month 14 days ago",
+  "responses": "43",
+  "likes": "15",
+  "downloads": "425"
+},
+     {
+  "date": "January 22 2021",
+  "title" : "Intellectual Property and Ownership of Genetic Data",
+  "tags": [[9,"IP"], [2, "Genetic"], [12,"Data"], [5, "IoT"], [201, "Python"], [455, "ethics"], [67, "medicine"], [55, "NCBI"]],
+  "abstractShort" : "An ethical issue with the use of bioinformatics and computational genomics is the concern with it's intellectual property that revolve around confidentiality fof the genetic impact. There is a psychological impact and philosophical debate that relate to the following categories.",
+  "users":
+          [
+            {
+              "id" : "001",
+              "icon" : "https://media.istockphoto.com/photos/nothing-but-smiles-here-picture-id1215914089?k=6&m=1215914089&s=612x612&w=0&h=loJJhLvWICNw_ze1Qu7aECPzoKGjAOjM7C-JYNmqqng="
+            },
+            {
+              "id": "002",
+              "icon": "https://media.istockphoto.com/photos/portrait-of-handsome-latino-african-man-picture-id1007763808?k=6&m=1007763808&s=612x612&w=0&h=Js1VDBulbaNw_CF7fghP_nhUPCC-DQTqb7Wym1CdTOI="
+            },
+            {
+              "id": "003",
+              "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ0OPb42-lXLlxks_OYde0Vua2CEsVomgr_A&usqp=CAU"
+            },
+            {
+              "id": "004",
+              "icon": "https://media.them.us/photos/5a0af71dd443dd0010c10ada/3:4/w_2880,h_3840,c_limit/5_Devin%20Norelle.jpg"
+            }
+          ],
+  "timeSince": "1 month 14 days ago",
+  "responses": "43",
+  "likes": "15",
+  "downloads": "425"
+},
+     {
+  "date": "January 22 2021",
+  "title" : "Intellectual Property and Ownership of Genetic Data",
+  "tags": [[9,"IP"], [2, "Genetic"], [12,"Data"], [5, "IoT"], [201, "Python"], [455, "ethics"], [67, "medicine"], [55, "NCBI"]],
+  "abstractShort" : "An ethical issue with the use of bioinformatics and computational genomics is the concern with it's intellectual property that revolve around confidentiality fof the genetic impact. There is a psychological impact and philosophical debate that relate to the following categories.",
+  "users":
+          [
+            {
+              "id" : "001",
+              "icon" : "https://media.istockphoto.com/photos/nothing-but-smiles-here-picture-id1215914089?k=6&m=1215914089&s=612x612&w=0&h=loJJhLvWICNw_ze1Qu7aECPzoKGjAOjM7C-JYNmqqng="
+            },
+            {
+              "id": "002",
+              "icon": "https://media.istockphoto.com/photos/portrait-of-handsome-latino-african-man-picture-id1007763808?k=6&m=1007763808&s=612x612&w=0&h=Js1VDBulbaNw_CF7fghP_nhUPCC-DQTqb7Wym1CdTOI="
+            },
+            {
+              "id": "003",
+              "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ0OPb42-lXLlxks_OYde0Vua2CEsVomgr_A&usqp=CAU"
+            },
+            {
+              "id": "004",
+              "icon": "https://media.them.us/photos/5a0af71dd443dd0010c10ada/3:4/w_2880,h_3840,c_limit/5_Devin%20Norelle.jpg"
+            }
+          ],
+  "timeSince": "1 month 14 days ago",
+  "responses": "43",
+  "likes": "15",
+  "downloads": "425"
+}
+  ]

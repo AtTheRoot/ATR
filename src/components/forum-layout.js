@@ -12,11 +12,12 @@ import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
 
 import Header from "./theme/header"
+
 import "./layout.css"
 
 const Content = styled.div`
   margin: 0 auto;
-  max-width: 860px;
+  max-width: 80vw;
   padding: 0 1.0875rem 1rem;
   padding-top: 0;
 `
@@ -30,10 +31,10 @@ const Footer = styled.footer`
   justify-content: center;
 `
 
-const Layout = ({ children }) => (
+const ForumLayout = ({ children }) => (
   <StaticQuery
     query={graphql`
-      query SiteTitleQuery {
+      query ForumLayoutQuery {
         site {
           siteMetadata {
             title
@@ -44,23 +45,25 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Content>
-          <main>{children}</main>
-          <Footer>
-            <p>
-            © {new Date().getFullYear()}, Built by
-            {` `}
-            </p>
-            <GatsbyLink href="https://VE4TM.dev">VE4TM.dev - Volunteer Engineers 4 The Movement</GatsbyLink>
-          </Footer>
-        </Content>
+
+            <Content>
+              <main>{children}</main>
+              <Footer>
+                <p>
+                © {new Date().getFullYear()}, Built by
+                {` `}
+                </p>
+                <GatsbyLink href="https://VE4TM.dev">VE4TM.dev - Volunteer Engineers 4 The Movement</GatsbyLink>
+              </Footer>
+            </Content>
+
       </>
     )}
   />
 )
 
-Layout.propTypes = {
+ForumLayout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default ForumLayout

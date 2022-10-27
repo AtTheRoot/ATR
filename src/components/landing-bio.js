@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
-import HighlightHeader from "../components/MarkedHeader"
+import { HighlightHeader } from "./theme/MarkedHeader"
 
 const Container = styled.div`
   text-align: center;
